@@ -7,7 +7,7 @@ const router = Router();
 app.use(router);
 
 router.get('/', (req, res) => {
-  res.send({message: 'Hello World!'})
+  res.send({message: 'Hello World! v2'})
 });
 
 app.listen(PORT, () => console.log(`running at http://0.0.0.0:${PORT}`));
